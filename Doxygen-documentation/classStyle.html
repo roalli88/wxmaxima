@@ -62,26 +62,25 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="classStyle-members.html">List of all members</a>  </div>
+<a href="#pub-static-attribs">Static Public Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">Style Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Text <a class="el" href="classStyle.html" title="Text Style Definition.">Style</a> Definition.  
+ <a href="classStyle.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="TextStyle_8h_source.html">TextStyle.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for Style:</div>
 <div class="dyncontent">
-<div class="center"><img src="classStyle__coll__graph.png" border="0" usemap="#aStyle_coll__map" alt="Collaboration graph"/></div>
-<map name="aStyle_coll__map" id="aStyle_coll__map">
-<area shape="rect" title=" " alt="" coords="21,95,76,121"/>
-<area shape="rect" href="classAFontSize.html" title=" " alt="" coords="5,5,92,32"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classStyle__coll__graph.svg" width="170" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -106,6 +105,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:abaf9b7896bde19e6bc7682701620c14f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares. <br /></td></tr>
 <tr class="separator:abaf9b7896bde19e6bc7682701620c14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af999d8bd639fdbd1fbb5c65023d8d286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStyle.html">Style</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyle.html#af999d8bd639fdbd1fbb5c65023d8d286">Read</a> (wxConfigBase *config, const wxString &amp;where)</td></tr>
+<tr class="memdesc:af999d8bd639fdbd1fbb5c65023d8d286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read this style from a config source.  <a href="classStyle.html#af999d8bd639fdbd1fbb5c65023d8d286">More...</a><br /></td></tr>
 <tr class="separator:af999d8bd639fdbd1fbb5c65023d8d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a259bf27abcb1f6d66dbb02bc9bc9f6cb"><td class="memItemLeft" align="right" valign="top"><a id="a259bf27abcb1f6d66dbb02bc9bc9f6cb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStyle.html#a259bf27abcb1f6d66dbb02bc9bc9f6cb">Write</a> (wxConfigBase *config, const wxString &amp;where) const</td></tr>
@@ -355,7 +355,7 @@ constexpr static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="separator:a3b97155b09ded055aacb9c709ee52c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Text <a class="el" href="classStyle.html">Style</a> Definition</p>
+<div class="textblock"><p>Text <a class="el" href="classStyle.html" title="Text Style Definition.">Style</a> Definition. </p>
 <p>It is a well-performing replacement for wxFontInfo, with additional color attribute.</p>
 <p>Since we only use a few handful text styles in a handful of sizes and since creating a wxFont object from a style definition is slow we employ a separate <a class="el" href="classFontVariantCache.html">FontVariantCache</a> that caches the wxFont objects we need for fonts with this font name. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -384,7 +384,8 @@ constexpr static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Read this style from a config source.</p>
+
+<p>Read this style from a config source. </p>
 <p>Only touches the attributes that were successfully read. Remaining attributes are unchanged. </p>
 
 </div>
